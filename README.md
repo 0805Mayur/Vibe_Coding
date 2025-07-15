@@ -40,12 +40,24 @@ A beautiful, modern calculator application built with React frontend and Flask b
 - npm or yarn
 
 ### Backend Setup
-1. Install Python dependencies:
+1. Create and activate a virtual environment:
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+2. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Run the Flask backend:
+3. Run the Flask backend:
 ```bash
 python app.py
 ```
